@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+.dashboard {
+    background-color: #1992D4;
+    grid-column: 1/2;
+    color: white;
+}
+
+
+.menu {
+    list-style: none;
+}
+
+.main {
+    background-color: #E2E8F0;
+}
+
+.nav-top {
+    background-color: white;
+    display: flex;
+    grid-column: 2/3;
+}
+
+.nav-bottom {
+    background-color: white;
+    display: flex;
+    grid-column: 2/3;
+}
